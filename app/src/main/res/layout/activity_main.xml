@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Chronometer
+        android:id="@+id/chronometer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-thin"
+        android:gravity="center"
+        android:padding="@dimen/space_medium"
+        android:textSize="@dimen/font_size_vlarge"
+        android:layout_marginTop="@dimen/space_xlarge"
+        android:layout_marginBottom="@dimen/space_xlarge"/>
+
+    <TextView
+        android:id="@+id/seconds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="@dimen/font_size_medium"
+        android:layout_below="@id/chronometer"/>
+
+    <TextView
+        android:id="@+id/start_stop"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/view_height_normal"
+        android:text="@string/start"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:background="@drawable/ripple_rectangle_button"
+        android:textSize="@dimen/font_size_large"
+        android:layout_marginTop="@dimen/font_size_medium"
+        android:layout_marginStart="@dimen/space_medium"
+        android:layout_marginEnd="@dimen/space_medium"
+        android:layout_below="@id/seconds"/>
+</RelativeLayout>

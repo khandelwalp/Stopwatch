@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="space_xsmall">2dp</dimen>
+    <dimen name="space_small">4dp</dimen>
+    <dimen name="space_medium">8dp</dimen>
+    <dimen name="space_normal">12dp</dimen>
+    <dimen name="space_large">16dp</dimen>
+    <dimen name="space_vlarge">20dp</dimen>
+    <dimen name="space_vvlarge">24dp</dimen>
+    <dimen name="space_xlarge">32dp</dimen>
+    <dimen name="space_xxlarge">48dp</dimen>
+    <dimen name="space_xxxlarge">72dp</dimen>
+
+    <dimen name="font_size_xxsmall">10sp</dimen>
+    <dimen name="font_size_xsmall">12sp</dimen>
+    <dimen name="font_size_small">14sp</dimen>
+    <dimen name="font_size_medium">16sp</dimen>
+    <dimen name="font_size_large">18sp</dimen>
+    <dimen name="font_size_xlarge">20sp</dimen>
+    <dimen name="font_size_xxlarge">24sp</dimen>
+    <dimen name="font_size_xxxlarge">36sp</dimen>
+    <dimen name="font_size_vlarge">40sp</dimen>
+
+    <dimen name="view_height_normal">45dp</dimen>
+    <dimen name="view_height_thin">40dp</dimen>
+    <dimen name="view_corner_radius">4dp</dimen>
+    <dimen name="elevation_normal">4dp</dimen>
+    <dimen name="elevation_high">6dp</dimen>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+</resources>
